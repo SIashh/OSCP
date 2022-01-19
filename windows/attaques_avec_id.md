@@ -144,9 +144,9 @@ $ impacket-secretsdump 'DOMAINE/USERNAME:PASSWORD@<IP_DC>' -just-dc-user krbtgt
 
 ### 2.3 Autre
 
-#### 2.3.1 Connexion sur un poste distant
+#### 2.3.1 Connexion sur un poste distant
 
-> Entrée : Identifiants d'un utilisateur / hash NTLM
+> Entrée : Identifiants d'un utilisateur / hash NTLM (au moins admin local ?)
 >
 > Objectifs : exécuter des commandes sur le serveur / lire des fichiers / dump LSASS / etc.
 >

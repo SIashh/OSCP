@@ -1,6 +1,6 @@
 # Attaques Windows sans identifiants
 
-### RPC anonyme
+### 1. RPC anonyme
 
 > Connexion anonyme à l'annuaire de l'AD.
 >
@@ -12,7 +12,7 @@ $ rpcclient -p <PORT> -U "" -N <IP>
 
 Voir [rpcclient](./rpcclient.md) pour consulter les actions réalisables.
 
-### LLMNR/NBT-NS
+### 2. LLMNR/NBT-NS
 
 > Attaque Man-In-The-Middle, consistant à intercepter se faire passer pour la ressource demandée afin que la machine s'authentifie sur nous.
 >
@@ -24,5 +24,15 @@ Voir [rpcclient](./rpcclient.md) pour consulter les actions réalisables.
 
 ```bash
 $ sudo responder -I eth0 -wFv
+```
+
+### 3. Accès anonyme SMB
+
+> Accéder à un share SMB sans idenfiants
+
+```bash
+$ smbclient -L '\\IP' -U ''%''
+
+$ crackmapexec smb <IP> -u '' -p '' --shares
 ```
 

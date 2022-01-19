@@ -1,14 +1,16 @@
 # Web
 
+> Tips pour l'exploitation web
 
 
-## XSS
+
+## 1. XSS
 
 - Pour les payloads XSS (ou autre avec encodage chiant) : dans Burp > clic droit > change body encoding (il faut juste que le serveur accepte le format de requête mais sinon c'est okay)
 
 
 
-## SQLi
+## 2. SQLi
 
 - **Blind** (postgresql) : 
 
@@ -21,4 +23,3 @@
   ```
 
   
-

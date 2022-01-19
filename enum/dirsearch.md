@@ -1,5 +1,7 @@
 # Dirsearch
 
+> Tips pour l'utilisation de dirsearch
+
 - **Scan basique :**
 
 ```bash
