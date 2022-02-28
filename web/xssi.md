@@ -1,4 +1,4 @@
-# XSSi
+# XSSi
 
 > Tips pour l'exploitation de XSSi
 >
@@ -37,7 +37,7 @@
 
 
 
-### Ressources
+### Ressources
 
 - https://www.scip.ch/en/?labs.20160414
 - https://www.sjoerdlangkemper.nl/2019/01/02/jsonp/
