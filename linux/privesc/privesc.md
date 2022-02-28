@@ -2,8 +2,6 @@
 
 > Exemple de tâches à effectuer pour obtenir une élévation de privilèges
 
-### 
-
 
 ### 2. Techniques
 
@@ -18,9 +16,9 @@
   $ bash -p # -p permet de garder l'effective user
   ```
 
-- Regarder les services tournants en local sur la machine cible et faire une proxychain (voir chisel ou ssh) pour y accéder en local depuis notre machine hôte
+- **Regarder les services tournants en local sur la machine cible** et faire une proxychain (voir chisel ou ssh) pour y accéder en local depuis notre machine hôte
 
-- Pas de variable `secure_path` lorsque l'on fait un `sudo -l` : overwrite la commande si le chemin passé n'est pas absolu :
+- Pas de variable `secure_path` lorsque l'on fait un `sudo -l` : **overwrite la commande si le chemin passé n'est pas absolu :**
 
   ```bash
   $ echo -n "cat /root/root.txt" > /tmp/<COMMANDE_A_MODIFIER>

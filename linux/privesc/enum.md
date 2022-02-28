@@ -19,7 +19,7 @@
 - **Connaître les fichiers qu'un utilisateur à le droit de consulter** :
 
   ```bash
-  $ find / -type f -readable | grep -v "/sys" | grep -v "/proc" | grep -v "/usr" | grep -v "sbin" | grep -v "/lib" | grep -v "/boot" | grep -v "/etc/" | grep -v "/run" | grep -v "/bin"
+  find / -type f -readable 2> /dev/null | grep -v "/sys" | grep -v "/proc" | grep -v "/usr" | grep -v "sbin" | grep -v "/lib" | grep -v "/boot" | grep -v "/etc/" | grep -v "/run" | grep -v "/bin" | grep -v ".css" | grep -v ".png" | grep -v ".gif" | grep -v ".js" | grep -v ".wav" | grep -v ".woff2" | grep -v ".ttf" | grep -v "jpg" | grep -v "ico"
   ```
 
   

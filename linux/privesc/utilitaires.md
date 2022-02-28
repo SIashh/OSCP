@@ -21,6 +21,11 @@
 
   ```bash
   $ ssh-keygen -t rsa -b 2048 -f mykey
+  $ ssh -i mykey <user>@<IP>
+  
+  # Les droits des dossiers sont très importants
+  $ chmod 755 .ssh
+  $ chmod 711 authorized_keys
   ```
 
   

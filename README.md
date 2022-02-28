@@ -9,5 +9,3 @@
 - Partie windows : 
   - zero-logon
   - eternalblue
-- Partie web :
-  - 
