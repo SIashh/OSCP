@@ -1,10 +1,10 @@
-# Powershell
+# Powershell
 
 > Tips et commandes lorsque l'on a une invite de commande powershell.
 
 
 
-### 1. Enumération
+### 1. Enumération
 
 - Lister les fichiers cachés :
 
@@ -69,7 +69,7 @@
 
   
 
-### 2. Exécution de commandes
+### 2. Exécution de commandes
 
 > Exécuter des commandes avec les droits d'un autre utilisateur que soi
 >
