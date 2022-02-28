@@ -2,7 +2,7 @@
 
 > Commande de la console MSF de Metasploit
 
-- **Ouvrir une console MSF : **
+- **Ouvrir une console MSF :**
 
   ```bash
   $ msfconsole (-q pour enlever les graphismes)
