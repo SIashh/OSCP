@@ -1,4 +1,4 @@
-# SMBCLIENT
+# SMBCLIENT
 
 - Récupérer un fichier présent sur un poste avec un partage SMB : 
 
