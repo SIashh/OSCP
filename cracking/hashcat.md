@@ -2,7 +2,7 @@
 
 > Tips pour craquer un hash à l'aide d'hashcat
 
-## Cracking
+## Cracking
 
 - Crack un hash avec une wordlist :
 
