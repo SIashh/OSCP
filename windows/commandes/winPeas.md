@@ -1,4 +1,4 @@
-# WinPeas
+# WinPeas
 
 > Tips et tricks pour utiliser Winpeas
 
