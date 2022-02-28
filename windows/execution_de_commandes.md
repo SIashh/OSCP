@@ -26,7 +26,7 @@ $ impacket-psexec -hashes aad3b435b51404eeaad3b435b51404ee:<HASH_NT> 'USERNAME@<
 
 
 
-### WinRM (evil-winrm)
+### WinRM (evil-winrm)
 
 > Prérequis : port 5985 d'ouvert / un compte utilisateur
 >
@@ -39,7 +39,7 @@ $ evil-winrm -i <IP_VICT> -u <USERNAME> -p <PASSWORD>
 
 
 
-### SMBExec
+### SMBExec
 
 > Prérequis : A creuser
 >
@@ -61,7 +61,7 @@ $ python3 /usr/share/doc/python3-impacket/examples/wmiexec.py '<DOMAIN.COM>/<USE
 
 
 
-### AtExec
+### AtExec
 
 > Prérequis : A creuser
 >
