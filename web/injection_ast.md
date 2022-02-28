@@ -1,4 +1,4 @@
-# Injection AST (ou prototype pollution)
+# Injection AST (ou prototype pollution)
 
 > Tips pour l'exploitation d'injections AST
 >
@@ -12,7 +12,7 @@
 
 
 
-### Ressources
+### Ressources
 
 - https://blog.p6.is/AST-Injection/
 - https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution
