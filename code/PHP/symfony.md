@@ -75,7 +75,7 @@ Il existe plusieurs façons de gérer les droits d'accès dans Symfony :
 
 
 
-### 5. SSTI
+### 5. SSTI
 
 - Symfony utilise de base le moteur de template **twig** pour afficher les vues ;
 
@@ -100,7 +100,7 @@ Il existe plusieurs façons de gérer les droits d'accès dans Symfony :
 
 
 
-## Lien
+## Lien
 
 [0]: https://nicwortel.nl/blog/2020/06/07/protect-symfony-application-against-owasp-top-10-security-risks
 [1]: https://github.com/fabpot/local-php-security-checker
