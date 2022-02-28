@@ -12,6 +12,6 @@
 
 
 
-**Wordlist d'extension de fichiers de backups* : **
+**Wordlist d'extension de fichiers de backups* :**
 
 - /usr/share/dirb/wordlists/mutations_common.txt
