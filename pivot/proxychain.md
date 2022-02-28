@@ -8,7 +8,7 @@
 
 ### 1. Chisel
 
-- **Port forwarding (accéder à un service ne tournant qu'en local sur une machine cible) avec l'exécutable [chisel][1] **:
+- **Port forwarding (accéder à un service ne tournant qu'en local sur une machine cible) avec l'exécutable [chisel][1]**:
 
   - Hôte :
 
