@@ -1,4 +1,4 @@
-# Curl
+# Curl
 
 > Privesc avec curl avec un setuid
 
