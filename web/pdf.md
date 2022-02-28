@@ -1,4 +1,4 @@
-# Exploitation de PDF
+# Exploitation de PDF
 
 > Tips pour l'exploitation des générateurs de PDF
 
