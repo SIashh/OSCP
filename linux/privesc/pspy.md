@@ -1,4 +1,4 @@
-# Pspy
+# Pspy
 
 > Outil permettant d'espionner les processus tournant sur la machine, notamment les crons des autres utilisateurs
 >
