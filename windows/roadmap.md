@@ -1,4 +1,4 @@
-# Box
+# Box
 
 ![](img/pic.png)
 
@@ -8,11 +8,11 @@
 
 
 
-## 1. Foothold
+## 1. Foothold
 
 ### 1.1 Reconnaissance globale
 
-#### 1.1.1 Nmap
+#### 1.1.1 Nmap
 
 ```bash
 $ nmap -sC -sV -T4 -p- IP
@@ -40,7 +40,7 @@ $ gobuster vhost -u http://FQDN -w ~/tools/SecLists/Discovery/DNS/subdomains-top
 
 
 
-### 1.2 Reconnaissance Windows
+### 1.2 Reconnaissance Windows
 
 Faire chacun des [tests sans identifiants](attaques_sans_id.md).
 
@@ -52,9 +52,9 @@ Faire chacun des [tests sans identifiants](attaques_sans_id.md).
 
 
 
-## 2. User privesc
+## 2. User privesc
 
-### 2.1 Récolte d'informations
+### 2.1 Récolte d'informations
 
 
 
@@ -66,7 +66,7 @@ Faire chacun des [tests avec identifiants](attaques_avec_id.md).
 
 ## 3. Root privesc
 
-### 3.1 Récolte d'informations
+### 3.1 Récolte d'informations
 
 
 
