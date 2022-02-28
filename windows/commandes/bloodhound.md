@@ -46,7 +46,7 @@ $ bloodhound-python -d <DOMAIN.COM> -u '<USER_VALIDE>' -p '<MDP_VALIDE>' -gc <NO
 
 
 
-### 3. Interprêtation et requêtes
+### 3. Interprêtation et requêtes
 
 Les requêtes suivantes sont intéressantes :
 
