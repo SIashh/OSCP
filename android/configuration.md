@@ -1,4 +1,4 @@
-# Android - Analyse dynamique
+# Android - Analyse dynamique
 
 > Tips et tricks pour de l'exploitation / recherche de vulnérabilités sur android de manière dynamique.
 
@@ -38,14 +38,14 @@
 
 ---------
 
-**Sur l'hôte : **
+**Sur l'hôte :**
 
 - Pour [Frida](outils/frida.md) : Créer le fichier `adbhelper.sh` présent dans la section `X.Ressources`
 - Pour Drozer, pull le docker : https://hub.docker.com/r/fsecurelabs/drozer
 
 
 
-#### 1. Ressources
+#### 1. Ressources
 
 ```bash
 # adbhelper.sh (permet de bypass le SSL pinning)
