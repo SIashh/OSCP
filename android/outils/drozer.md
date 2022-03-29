@@ -1,4 +1,4 @@
-# Drozer
+# Drozer
 
 > Framework client /server automatisé de sécurité Android.
 >
@@ -39,7 +39,7 @@ dz>
 
 
 
-### 2. Commandes
+### 2. Commandes
 
 - **Lister les packages :**
 
