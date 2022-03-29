@@ -52,7 +52,7 @@ dz> run app.broadcast.send --action <ACTION_BROADCAST_RECEIVER> --extra <TYPE> <
 >
 > Pour contrer cette protection, on utilise [frida](outils/frida.md).
 
-**Sur le téléphone émulé : **
+**Sur le téléphone émulé :**
 
 - Installer le serveur frida :
 
