@@ -1,4 +1,4 @@
-# Roadmap pentest Android
+# Roadmap pentest Android
 
 > Roadmap des tests à effectuer pour un pentest Android.
 
@@ -33,7 +33,7 @@ $ apktool d <FICHIER.apk>
 
 
 
-#### 2.1 Récupération d'informations sensibles dans les logs
+#### 2.1 Récupération d'informations sensibles dans les logs
 
 ```bash
 # Consulter tous les logs
