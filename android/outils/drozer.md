@@ -27,12 +27,12 @@ $ adb install drozer-agent-2.3.4.apk # ou drag&drop dans le mobile émulé
 # Relancer le server adb pour qu'il écoute sur toutes les interfaces
 $ adb -a nodaemon server start
 # Démarrer Genymotion et démarrer le mobile virtuel
-# Faire le port forward (pour docker), ici, le port hôte 1234 redirige vers le port 31215 du téléphone émulé
+# Faire le port forward (pour docker), ici, le port hôte 1234 redirige vers le port 31415 du téléphone émulé
 $ adb forward tcp:1234 tcp:31415
 # Lancer le docker contenant drozer
-$ sudo docker run -it fsecurelabs/drozer
+$ sudo docker run -it fsecurelabs/drozer 
 # Dans le docker
-root@05e73b2dbd82:/# drozer console connect
+root@05e73b2dbd82:/# drozer console connect --server <IP_HOTE>:1234
 # On a notre console drozer
 dz>
 ```
@@ -41,15 +41,13 @@ dz>
 
 ### 2. Commandes
 
-* Lister les packages :
+- **Lister les packages :**
 
 ```bash
 dz> run app.package.list -f <NOM_APPLI>
 ```
 
-
-
-- Vérifier qu'un broadcast receiver est bien exporté (et donc accessible par tous) et les permissions nécessaires pour les trigger :
+- **Vérifier qu'un broadcast receiver est bien exporté (et donc accessible par tous) et les permissions nécessaires pour les trigger :**
 
 ```bash
 # Exemple : run app.broadcast.info -a infosecadventures.allsafe
