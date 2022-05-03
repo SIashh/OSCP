@@ -1,4 +1,4 @@
-# Utilitaires en crypto
+# Utilitaires en crypto
 
 > Liste de commandes utiles liées à la crypto.
 
