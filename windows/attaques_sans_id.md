@@ -6,7 +6,7 @@
 >
 > Objectifs : récupérer des informations
 
-#### 1.1. Accès RPC anonyme
+#### 1.1. Accès RPC null bind
 
 > Connexion anonyme à l'annuaire de l'AD.
 >
@@ -18,7 +18,7 @@ $ rpcclient -p <PORT> -U "" -N <IP>
 
 Voir [rpcclient](./rpcclient.md) pour consulter les actions réalisables.
 
-#### 1.2. Accès SMB anonyme
+#### 1.2. Accès SMB null bind
 
 > Objectifs : Accéder à un share SMB sans idenfiants
 
@@ -28,7 +28,7 @@ $ smbclient -L '\\IP' -U ''%''
 $ crackmapexec smb <IP> -u '' -p '' --shares
 ```
 
-#### 1.3. Accès LDAP anonyme (LDAP anonymous bind)
+#### 1.3. Accès LDAP null bind (LDAP anonymous bind)
 
 > Objectifs : lire des parties du LDAP
 

